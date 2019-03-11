@@ -28,7 +28,7 @@ function autoPush()
 
 	# 仓库add
     # 2>&1 的意思就是将标准错误重定向到标准输出。
-	var=$(git add . 2>&1)
+	var=$(git add ../ 2>&1)
 	echo $var
 
     git status
@@ -81,4 +81,4 @@ function autoPush()
 
 
 # Push
-# autoPush
+autoPush
