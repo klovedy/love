@@ -8,7 +8,9 @@ echo  "----------------"
 
 hexo clean && rm -rf docs/*
 
-hexo generate  && cp -r public/. docs
+hexo generate  && cp -r public/. ../docs
+
+hexo clean 
 
 echo  "----------------"
 
@@ -79,4 +81,4 @@ function autoPush()
 
 
 # Push
-autoPush
+# autoPush
