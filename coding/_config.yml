@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: K&Y
+subtitle: love
+description: kun love dongyi
+keywords: k&Y
+author: Vincent
+language: cn
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://lkxdy.com/
-root: /love/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
