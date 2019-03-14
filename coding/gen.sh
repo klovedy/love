@@ -6,9 +6,9 @@ echo  "👉  生成博客静态资源 👉 : "
 
 echo  "----------------"
 
-sudo hexo clean && rm -rf ../docs/*  
+sudo hexo clean && sudo rm -rf ../docs/*  
 
-hexo generate  
+sudo hexo generate  
 
 
 echo  "----------------"

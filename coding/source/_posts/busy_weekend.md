@@ -1,7 +1,7 @@
 ---
 title: 加班的周末
 date: 2019-02-16 23:59:01
-cover: /img/s/aa/busy_wekend_1.jpeg
+cover: /img/s/a/busy_wekend_1.jpeg
 tags: 
 - 日常 
 ---
@@ -19,12 +19,7 @@ tags:
 十二点多 ...⊙∀⊙！...晚安么么
 
 
-![酸奶]](/img/s/aa/busy_wekend_1.jpeg "blueglass")
-
-
-<!-- > `高能预警：` 使用手机流量时：慎重点击，图大、耗流量，`WiFi环境下`观看
-
-[点这里 `更多照片`](/img/s/xizang/p.html#02) -->
+![酸奶](/img/s/a/busy_wekend_1.jpeg "blueglass")
 
 
 ***
