@@ -90,4 +90,4 @@ function autoPush()
 
 
 # Push
-# autoPush
+autoPush
