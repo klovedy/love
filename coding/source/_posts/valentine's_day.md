@@ -1,8 +1,10 @@
 ---
-title: 情人节
+title: 2019情人节
 date: 2019-02-14 22:36:18
-cover: /img/s/valentine's_day/1_2.jpg
-tags: 节日
+cover: /img/s/aa/valentine's_day_2.jpg
+tags:
+- 情人节
+- 节日 
 ---
 
 #### 2019年2月14日 `情人节`
@@ -24,9 +26,9 @@ tags: 节日
 已没有肚子吃馋嘴猫串吧，回家
 
 
-![包]](/img/s/valentine's_day/1_1.jpg "大包包")
+![包]](/img/s/aa/valentine's_day_1.jpg "大包包")
 
-![花]](/img/s/valentine's_day/1_2.jpg "红玫瑰")
+![花]](/img/s/aa/valentine's_day_2.jpg "红玫瑰")
 
 
 <!-- > `高能预警：` 使用手机流量时：慎重点击，图大、耗流量，`WiFi环境下`观看
