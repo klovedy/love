@@ -117,7 +117,21 @@ var Diaspora = {
                 $('#container').show();
             }
             Diaspora.loaded();
-        });
+        })
+        // 来必力评论
+        var lblFunc_ = function(){
+            (function(d, s) {
+                var j, e = d.getElementsByTagName(s)[0];
+         
+                if (typeof LivereTower === 'function') { return; }
+         
+                j = d.createElement(s);
+                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                j.async = true;
+         
+                e.parentNode.insertBefore(j, e);
+            })(document, 'script');
+        };
         setTimeout(function() {
             $('#preview').addClass('show');
             $('#container').data('scroll', window.scrollY);
@@ -126,6 +140,8 @@ var Diaspora = {
                     'position': 'static',
                     'overflow-y': 'auto'
                 });
+                // 来必力评论
+                lblFunc_();
             }, 500);
         }, 0);
     },
