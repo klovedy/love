@@ -120,6 +120,8 @@ var Diaspora = {
         })
         // 来必力评论
         var lblFunc_ = function(){
+            var $lv = $('#lv-container');
+            if($lv.attr('flag') == '1') return;
             (function(d, s) {
                 var j, e = d.getElementsByTagName(s)[0];
          
@@ -131,6 +133,7 @@ var Diaspora = {
          
                 e.parentNode.insertBefore(j, e);
             })(document, 'script');
+            $lv.attr('flag','1');
         };
         setTimeout(function() {
             $('#preview').addClass('show');
