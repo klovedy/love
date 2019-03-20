@@ -1,5 +1,4 @@
 // 来必力City版
-
 (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
     var el = document.getElementById("lv-container");
