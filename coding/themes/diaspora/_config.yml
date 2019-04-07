@@ -12,11 +12,7 @@ autoplay: true
 
 # 默认音乐
 mp3: 
-  - /mp3/Happy.mp3
-  - /mp3/LAID_BACK_PIANO.mp3
-  - /mp3/SoftAndGentle_01.mp3
-  - /mp3/SoftAndGentle_02.mp3
-  - /mp3/SoftAndGentle_03.mp3
+  - /mp3/traveling_light.aac
 
 # 首页封面图, 为空时取文章的cover作为封面
 welcome_cover: /img/welcome-cover/2.jpg
