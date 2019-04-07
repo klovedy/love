@@ -52,17 +52,18 @@ function autoPush()
         echo  "----------------"
 		# 判断是否commit成功
 		var=$(git commit -m "$commit_msg" 2>&1)
-		echo $var
-		if [[ "$var" =~ $error_str ]]; then
-            echo  "----------------"
-			echo "😥  提交错误 😥 "
-            echo  "--------------------->"
-            break
-		else
-            # echo  "--------------------->"
-            # echo  "👏  commint 👏 "
-			break
-		fi
+		break
+		# echo $var
+		# if [[ "$var" =~ $error_str ]]; then
+        #     echo  "----------------"
+		# 	echo "😥  提交错误 😥 "
+        #     echo  "--------------------->"
+        #     break
+		# else
+        #     # echo  "--------------------->"
+        #     # echo  "👏  commint 👏 "
+		# 	break
+		# fi
 	done
 
 	# push
