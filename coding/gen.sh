@@ -52,41 +52,40 @@ function autoPush()
         echo  "----------------"
 		# 判断是否commit成功
 		var=$(git commit -m "$commit_msg" 2>&1)
-		break
-		# echo $var
-		# if [[ "$var" =~ $error_str ]]; then
-        #     echo  "----------------"
-		# 	echo "😥  提交错误 😥 "
-        #     echo  "--------------------->"
-        #     break
-		# else
-        #     # echo  "--------------------->"
-        #     # echo  "👏  commint 👏 "
-		# 	break
-		# fi
-	done
-
-	# push
-	while [ "1" = "1" ]
-	do
-        echo  "----------------"
-		echo  "😉  正在push到远程库... 😉   :"
-        echo  "----------------"
-		var=$(git push -u origin master 2>&1)
-		if [[ $var =~ $error_str ]]; then
-			var=$(git push -u origin master 2>&1)
-		elif [[ $var =~ "git pull" ]]; then
-			echo "😻  pull远程仓库 😻 "
-			var=$(git pull 2>&1)
-			echo $var
-		else
-			echo $var
+		echo $var
+		if [[ "$var" =~ $error_str ]]; then
             echo  "----------------"
-            echo  "👏  push完成 👏 "
+			echo "😥  提交错误 😥 "
             echo  "--------------------->"
+            break
+		else
+            # echo  "--------------------->"
+            # echo  "👏  commint 👏 "
 			break
 		fi
 	done
+
+	# push
+	# while [ "1" = "1" ]
+	# do
+    #     echo  "----------------"
+	# 	echo  "😉  正在push到远程库... 😉   :"
+    #     echo  "----------------"
+	# 	var=$(git push -u origin master 2>&1)
+	# 	if [[ $var =~ $error_str ]]; then
+	# 		var=$(git push -u origin master 2>&1)
+	# 	elif [[ $var =~ "git pull" ]]; then
+	# 		echo "😻  pull远程仓库 😻 "
+	# 		var=$(git pull 2>&1)
+	# 		echo $var
+	# 	else
+	# 		echo $var
+    #         echo  "----------------"
+    #         echo  "👏  push完成 👏 "
+    #         echo  "--------------------->"
+	# 		break
+	# 	fi
+	# done
 }
 
 
