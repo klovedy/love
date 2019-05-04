@@ -1,7 +1,7 @@
 ---
 title: 第一次回家见家长
 date: 2019-05-04 12:16:32
-cover: /img/s/meeting_parents_in_jinan/0_0.jpg
+cover: /img/s/meeting_parents_in_jinan/1_2.jpeg
 tags: 
 - 旅行
 ---
