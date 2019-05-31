@@ -16,7 +16,7 @@ _在此特别提及我们的媒人-幽默可爱的倩倩,_
 _以及真情流露的琴琴，_
 _思想有深度的龚老师，_
 _偶遇两次的海灵，_
-_还有照片里见过的新新，_
+_还有照片里见过的欣欣，_
 _年少持重的晓和低调的晓菲，_
 **虽第一次见 一点没有陌生感!**
 大家说说笑笑开心聊天，
@@ -31,6 +31,7 @@ _年少持重的晓和低调的晓菲，_
 ![tc]](/img/s/treat_colleagues_to_dinner/0_0.jpg "")
 ![tc]](/img/s/treat_colleagues_to_dinner/0_1.jpg "")
 ![tc]](/img/s/treat_colleagues_to_dinner/0_2.jpg "")
+![tc]](/img/s/treat_colleagues_to_dinner/0_3.jpeg "")
 
 ---
 
