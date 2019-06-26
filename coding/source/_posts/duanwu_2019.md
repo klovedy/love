@@ -1,7 +1,7 @@
 ---
 title: 2019 端午节
 date: 2019-06-11 12:16:21
-cover: /img/s/duanwu_2019/0_0.jpg
+cover: /img/s/duanwu_2019/2_0.jpg
 tags: 
 - 节日 
 - 端午节

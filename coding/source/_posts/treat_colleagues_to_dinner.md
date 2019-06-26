@@ -1,7 +1,7 @@
 ---
 title: 同事好友们聚餐
 date: 2019-05-26 18:36:28
-cover: /img/s/treat_colleagues_to_dinner/0_0.jpg
+cover: /img/s/treat_colleagues_to_dinner/0.jpg
 tags: 
 - 日常
 ---
