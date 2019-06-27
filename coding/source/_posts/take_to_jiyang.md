@@ -1,7 +1,7 @@
 ---
 title: 第一次带你见父母
 date: 2019-05-21 23:36:16
-cover: /img/s/take_to_jiyang/3_1.jpg
+# cover: /img/s/take_to_jiyang/3_1.jpg
 tags: 
 - 旅行
 ---

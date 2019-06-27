@@ -1,7 +1,7 @@
 ---
 title: 六月看车记
 date: 2019-06-26 09:50:06
-#cover: /img/s/recently_about_cars/0_2.jpg
+cover: /img/s/recently_about_cars/cover.jpg
 tags: 
 - 日常
 - 周末
@@ -46,8 +46,19 @@ _晚上你不怎么吃，主要还是我吃！！！_
 
 <!-- <video src="http://structr.learn-anything.cn/video/道理/陈铭：像我这种老好人，根本没什么真朋友！不jue亲戚的人，根本没什么真亲戚！.mp4" width="96%" height="auto" controls="controls" style="display: block;margin: 0 auto;"></video> -->
 
+---
 
-<!-- ![rac](/img/s/recently_about_cars/0_1.jpg "rac") -->
+![rac](/img/s/recently_about_cars/0_0.jpg "rac")
+![rac](/img/s/recently_about_cars/0_2_0.jpg "rac")
+![rac](/img/s/recently_about_cars/0_2_1.jpg "rac")
+![rac](/img/s/recently_about_cars/0_2_2.jpg "rac")
+![rac](/img/s/recently_about_cars/0_2_3.jpg "rac")
+![rac](/img/s/recently_about_cars/0_3.jpg "rac")
+![rac](/img/s/recently_about_cars/0_4.jpg "rac")
+![rac](/img/s/recently_about_cars/0_5.jpg "rac")
+![rac](/img/s/recently_about_cars/0_6.jpg "rac")
+![rac](/img/s/recently_about_cars/0_7.jpg "rac")
+![rac](/img/s/recently_about_cars/0_8.jpg "rac")
 
 
 ---
@@ -68,8 +79,10 @@ __花蛤、蛏子、烤串、扎啤!！__
 **开心吃完！！！**
 `今天过得好快呀！！！`
 
+---
 
-<!-- ![rac](/img/s/recently_about_cars/0_8.jpg "rac") -->
+![rac](/img/s/recently_about_cars/1_0.jpg "rac")
+![rac](/img/s/recently_about_cars/1_1.jpg "rac")
 
 ---
 
@@ -100,8 +113,12 @@ _对新能源和油车产生激烈探讨。_
 回家去超市，买椰子等！！！
 **边喝边拎着超市购物袋开心回家。**
 
+---
 
-<!-- ![rac](/img/s/recently_about_cars/0_8.jpg "rac") -->
+![rac](/img/s/recently_about_cars/2_0.jpg "rac")
+![rac](/img/s/recently_about_cars/2_1.jpg "rac")
+![rac](/img/s/recently_about_cars/2_2.jpg "rac")
+
 
 ---
 
@@ -138,8 +155,14 @@ _开起来 车内讲话听不清。_
 **牵手散步走路回家！！**
 **开心的一个周末！！！**
 
+---
 
-<!-- ![rac](/img/s/recently_about_cars/0_3.jpg "rac") -->
+![rac](/img/s/recently_about_cars/3_0.jpg "rac")
+![rac](/img/s/recently_about_cars/3_1.jpg "rac")
+![rac](/img/s/recently_about_cars/3_2.jpg "rac")
+![rac](/img/s/recently_about_cars/3_3.jpg "rac")
+![rac](/img/s/recently_about_cars/3_4.jpg "rac")
+![rac](/img/s/recently_about_cars/3_5.jpg "rac")
 
 ***
 
