@@ -100,7 +100,7 @@ var Diaspora = {
             setTimeout(function() {
                 Diaspora.player();
                 $('#top').show();
-                comment = $("#gitalk-container");
+                var comment = $("#gitalk-container");
                 if (comment.data('ae') == true){
                     comment.click();
                 }
@@ -148,7 +148,22 @@ var Diaspora = {
             }, 500);
         }, 0);
     },
+    playerHome: function(){
+        var p = $('#audioHome');
+        if (!p.length) {
+            return
+        }
+        var sourceSrc= $("#audioHome source").eq(0).attr('src')
+        if (sourceSrc == '' && p[0].src == ''){
+            return
+        }
+        if (p.eq(0).data("autoplay") == true) {
+            p[0].play();
+        }
+        // console.log(111, p)
+    },
     player: function() {
+        if(1) {return;}
         var p = $('#audio');
         if (!p.length) {
             $('.icon-play').css({
@@ -159,8 +174,8 @@ var Diaspora = {
         }
         var sourceSrc= $("#audio source").eq(0).attr('src')
         if (sourceSrc == '' && p[0].src == ''){
-            audiolist = $('#audio-list li');
-            mp3 = audiolist.eq([Math.floor(Math.random() * audiolist.size())])
+            var audiolist = $('#audio-list li');
+            var mp3 = audiolist.eq([Math.floor(Math.random() * audiolist.size())])
             p[0].src = mp3.data('url')
         }
 
@@ -258,7 +273,9 @@ $(function() {
                 Diaspora.F($('#cover')[0], cover.w, cover.h)
             })();
             setTimeout(function() {
-                $('html, body').removeClass('loading')
+                $('html, body').removeClass('loading');
+                // 首页音乐播放器 @2019-07
+                Diaspora.playerHome()
             }, 1000)
             $('#mark').parallax()
             var vibrant = new Vibrant(cover.t[0]);
@@ -426,13 +443,13 @@ $(function() {
             // toc
             case (tag.indexOf('toc-text') != -1 || tag.indexOf('toc-link') != -1
                   || tag.indexOf('toc-number') != -1):
-                hash = '';
+                var hash = '';
                 if (e.target.nodeName == 'SPAN'){
                   hash = $(e.target).parent().attr('href')
                 }else{
                   hash = $(e.target).attr('href')
                 }
-                to  = $("a.headerlink[href='" + hash + "']")
+                var to  = $("a.headerlink[href='" + hash + "']")
                 $("html,body").animate({
                   scrollTop: to.offset().top - 50
                 }, 300);
@@ -489,9 +506,9 @@ $(function() {
                 break;
               // comment
             case - 1 != tag.indexOf("comment"): 
-                Diaspora.loading(),
-                comment = $('#gitalk-container');
-                gitalk = new Gitalk({
+                Diaspora.loading();
+                var comment = $('#gitalk-container');
+                var gitalk = new Gitalk({
                   clientID: comment.data('ci'),
                   clientSecret: comment.data('cs'),
                   repo: comment.data('r'),
@@ -511,10 +528,9 @@ $(function() {
         }
     })
     // 是否自动展开评论
-    comment = $("#gitalk-container");
+    var comment = $("#gitalk-container");
     if (comment.data('ae') == true){
         comment.click();
     }
-    console.log("%c Github %c","background:#24272A; color:#ffffff","","https://github.com/Fechin/hexo-theme-diaspora")
 })
 

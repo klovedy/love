@@ -7,8 +7,15 @@ menu:
 # 是否显示目录
 TOC: false
 
+# 首页是否播放音乐
+homeautoplay: true
+
+# 首页音乐
+homemp3: '/mp3/traveling_light.aac'
+
 # 是否自动播放音乐
-autoplay: true
+autoplay: false
+
 
 # 默认音乐
 mp3: 
