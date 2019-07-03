@@ -1,16 +1,20 @@
 <%- partial("_partial/menu", null, {cache: true}) %>
 
+<script src="https://cdn.bootcss.com/vConsole/3.3.0/vconsole.min.js"></script>
+
+<script>
+  // 初始化
+  var vConsole = new VConsole();
+  
+</script>
 
 <div id="container">
     
-    <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-    <audio id="audioHome" loop="1" preload="auto" controls="controls" data-autoplay="<%- theme.homeautoplay || "false" %>">
-        <source type="audio/mpeg" src="<%- theme.homemp3 %>">
-    </audio>
+    <%- partial("_partial/homemp3", null, {cache: true}) %>
 
     <%- partial("_partial/screen", null, {cache: true}) %>
     <div id="primary">
-        <%- partial('_partial/list', {start: 1}) %>
+        <!-- <%- partial('_partial/list', {start: 1}) %> -->
     </div>
     <% if (page.total > 1 && page.next_link){ %>
     <div id="pager"><a href="<%- url_for(page.next_link) %>" class="more">加载更多</a></div>

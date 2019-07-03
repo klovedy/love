@@ -158,9 +158,31 @@ var Diaspora = {
             return
         }
         if (p.eq(0).data("autoplay") == true) {
-            p[0].play();
+            
+            $(window).one('touchend', function(){
+                // music.play();
+                console.log(122222, p[0]);
+                p[0].play();
+            })
         }
-        // console.log(111, p)
+        
+        p.on({
+            'timeupdate': function() {
+                var progress = p[0].currentTime / p[0].duration * 100;
+                $('.bar-mp3').css('width', progress + '%');
+                if (progress / 5 <= 1) {
+                    p[0].volume = progress / 5;
+                }else {
+                    p[0].volume = 1;
+                }
+            },
+            'ended': function() {
+                $('.icon-pause').removeClass('icon-pause').addClass('icon-play')
+            },
+            'playing': function() {
+                $('.icon-play').removeClass('icon-play').addClass('icon-pause')
+            }
+        })
     },
     player: function() {
         if(1) {return;}
