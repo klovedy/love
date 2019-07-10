@@ -8,13 +8,13 @@ menu:
 TOC: false
 
 # 首页是否播放音乐
-homeautoplay: true
+homeautoplay: false
 
 # 首页音乐
 homemp3: '/mp3/traveling_light.aac'
 
 # 是否自动播放音乐
-autoplay: false
+autoplay: true
 
 
 # 默认音乐

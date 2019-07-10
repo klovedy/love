@@ -158,12 +158,7 @@ var Diaspora = {
             return
         }
         if (p.eq(0).data("autoplay") == true) {
-            
-            $(window).one('touchend', function(){
-                // music.play();
-                console.log(122222, p[0]);
-                p[0].play();
-            })
+            p[0].play();
         }
         
         p.on({
@@ -185,7 +180,7 @@ var Diaspora = {
         })
     },
     player: function() {
-        if(1) {return;}
+        // if(1) {return;}
         var p = $('#audio');
         if (!p.length) {
             $('.icon-play').css({
@@ -297,7 +292,7 @@ $(function() {
             setTimeout(function() {
                 $('html, body').removeClass('loading');
                 // 首页音乐播放器 @2019-07
-                Diaspora.playerHome()
+                Diaspora.player()
             }, 1000)
             $('#mark').parallax()
             var vibrant = new Vibrant(cover.t[0]);

@@ -288,3 +288,4 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   .comment .gt-btn-public .gt-btn-text:after{content:"";}
 }
 
+.bar-mp3 {position:absolute;height:100%;background:rgba(139, 33, 33, 0.07);z-index:-1;width:0;-webkit-transition:width .5s ease;-moz-transition:width .5s ease;transition:width .5s ease;}

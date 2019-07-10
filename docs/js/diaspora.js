@@ -160,10 +160,27 @@ var Diaspora = {
         if (p.eq(0).data("autoplay") == true) {
             p[0].play();
         }
-        // console.log(111, p)
+        
+        p.on({
+            'timeupdate': function() {
+                var progress = p[0].currentTime / p[0].duration * 100;
+                $('.bar-mp3').css('width', progress + '%');
+                if (progress / 5 <= 1) {
+                    p[0].volume = progress / 5;
+                }else {
+                    p[0].volume = 1;
+                }
+            },
+            'ended': function() {
+                $('.icon-pause').removeClass('icon-pause').addClass('icon-play')
+            },
+            'playing': function() {
+                $('.icon-play').removeClass('icon-play').addClass('icon-pause')
+            }
+        })
     },
     player: function() {
-        if(1) {return;}
+        // if(1) {return;}
         var p = $('#audio');
         if (!p.length) {
             $('.icon-play').css({
@@ -275,7 +292,7 @@ $(function() {
             setTimeout(function() {
                 $('html, body').removeClass('loading');
                 // 首页音乐播放器 @2019-07
-                Diaspora.playerHome()
+                Diaspora.player()
             }, 1000)
             $('#mark').parallax()
             var vibrant = new Vibrant(cover.t[0]);
