@@ -145,7 +145,7 @@ var Diaspora = {
                 });
                 // 来必力评论
                 lblFunc_();
-            }, 500);
+            }, 200)
         }, 0);
     },
     playerHome: function(){
