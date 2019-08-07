@@ -1,7 +1,7 @@
 ---
 title: 多雨的七月 <下> 
-date: 2019-08-01 11:18:16
-cover: /img/s/recently_2019_07/cover.jpg
+date: 2019-07-31 11:18:16
+cover: /img/s/recently_2019_07/cover2.jpg
 tags: 
 - 日常
 - 周末
