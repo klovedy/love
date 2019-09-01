@@ -1,6 +1,6 @@
 ---
 title: 八月【末】
-date: 2019-08-01 20:02:08
+date: 2019-08-31 20:02:08
 cover: /img/s/recently_2019_08/cover2.jpg
 tags: 
 - 日常
