@@ -1,7 +1,7 @@
 ---
 title: 八月【末】
-date: 2019-08-31 20:02:08
-cover: /img/s/recently_2019_08/d/cover2.jpg
+date: 2019-08-01 20:02:08
+cover: /img/s/recently_2019_08/cover2.jpg
 tags: 
 - 日常
 - 周末
@@ -28,10 +28,10 @@ _四人聊天，聊聊过去、现状、以及打算。_
 
 ---
 
-![img](/img/s/recently_2019_08/d/c_0_0_0.jpeg "img")
-![img](/img/s/recently_2019_08/d/c_0_0.jpg "img")
-![img](/img/s/recently_2019_08/d/c_0_1.jpg "img")
-![img](/img/s/recently_2019_08/d/c_0_2.jpg "img")
+![img](/img/s/recently_2019_08/c_0_0_0.jpeg "img")
+![img](/img/s/recently_2019_08/c_0_0.jpg "img")
+![img](/img/s/recently_2019_08/c_0_1.jpg "img")
+![img](/img/s/recently_2019_08/c_0_2.jpg "img")
 
 
 ---
@@ -57,11 +57,11 @@ __买了一个椰子，鲜美可口椰子汁！__
 
 ---
 
-![img](/img/s/recently_2019_08/d/c_1_0.jpg "img")
-![img](/img/s/recently_2019_08/d/c_1_1.jpg "img")
-![img](/img/s/recently_2019_08/d/c_1_2.jpg "img")
-![img](/img/s/recently_2019_08/d/c_1_3.jpg "img")
-![img](/img/s/recently_2019_08/d/c_1_4.jpg "img")
+![img](/img/s/recently_2019_08/c_1_0.jpg "img")
+![img](/img/s/recently_2019_08/c_1_1.jpg "img")
+![img](/img/s/recently_2019_08/c_1_2.jpg "img")
+![img](/img/s/recently_2019_08/c_1_3.jpg "img")
+![img](/img/s/recently_2019_08/c_1_4.jpg "img")
 
 ---
 
@@ -70,10 +70,10 @@ __买了一个椰子，鲜美可口椰子汁！__
 > 遇到你是最幸运的事！媳妇儿，我爱你！🌻😘💖
 
 ---
-![img](/img/s/recently_2019_08/d/e_0_0.jpg "img")
-![img](/img/s/recently_2019_08/d/e_0_1.jpg "img")
-![img](/img/s/recently_2019_08/d/e_0_2.jpg "img")
-![img](/img/s/recently_2019_08/d/e_0_3.jpg "img")
+![img](/img/s/recently_2019_08/e_0_0.jpg "img")
+![img](/img/s/recently_2019_08/e_0_1.jpg "img")
+![img](/img/s/recently_2019_08/e_0_2.jpg "img")
+![img](/img/s/recently_2019_08/e_0_3.jpg "img")
 
 ---
 
@@ -103,14 +103,14 @@ __生蚝锅,葱香蛏子,__
 
 ---
 
-![img](/img/s/recently_2019_08/d/d_0_0.jpg "img")
-![img](/img/s/recently_2019_08/d/d_0_1.jpg "img")
-![img](/img/s/recently_2019_08/d/d_0_2.jpg "img")
-![img](/img/s/recently_2019_08/d/d_0_3.jpg "img")
-![img](/img/s/recently_2019_08/d/d_0_5.jpg "img")
-![img](/img/s/recently_2019_08/d/d_0_6.jpg "img")
-![img](/img/s/recently_2019_08/d/d_0_7.jpg "img")
-![img](/img/s/recently_2019_08/d/d_0_8.jpg "img")
+![img](/img/s/recently_2019_08/d_0_0.jpg "img")
+![img](/img/s/recently_2019_08/d_0_1.jpg "img")
+![img](/img/s/recently_2019_08/d_0_2.jpg "img")
+![img](/img/s/recently_2019_08/d_0_3.jpg "img")
+![img](/img/s/recently_2019_08/d_0_5.jpg "img")
+![img](/img/s/recently_2019_08/d_0_6.jpg "img")
+![img](/img/s/recently_2019_08/d_0_7.jpg "img")
+![img](/img/s/recently_2019_08/d_0_8.jpg "img")
 
 ---
 
@@ -138,11 +138,11 @@ __专注专业，点赞！__
 `充实的一天结束。` 💝
 
 
-![img](/img/s/recently_2019_08/d/d_1_0.jpg "img")
-![img](/img/s/recently_2019_08/d/d_1_2.jpg "img")
-![img](/img/s/recently_2019_08/d/d_1_3.jpg "img")
-![img](/img/s/recently_2019_08/d/d_1_4.jpg "img")
-![img](/img/s/recently_2019_08/d/d_1_5.jpg "img")
+![img](/img/s/recently_2019_08/d_1_0.jpg "img")
+![img](/img/s/recently_2019_08/d_1_2.jpg "img")
+![img](/img/s/recently_2019_08/d_1_3.jpg "img")
+![img](/img/s/recently_2019_08/d_1_4.jpg "img")
+![img](/img/s/recently_2019_08/d_1_5.jpg "img")
 
 ***
 
