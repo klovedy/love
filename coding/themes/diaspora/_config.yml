@@ -5,7 +5,7 @@ menu:
   # Twitter: https://twitter.com/FechinLi
 
 # 是否显示目录
-TOC: false
+TOC: true
 
 # 首页是否播放音乐
 homeautoplay: false
@@ -51,7 +51,7 @@ scrollbar: true
 
 
 # 网站关键字
-keywords: Fechin
+keywords: love, klovedy
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
 google_analytics: 
