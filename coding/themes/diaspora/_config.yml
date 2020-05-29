@@ -19,7 +19,8 @@ autoplay: true
 
 # 默认音乐
 mp3: 
-  - /mp3/traveling_light.aac
+  # - /mp3/traveling_light.aac
+  - /mp3/with_you.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
 welcome_cover: /img/welcome-cover/4.jpg

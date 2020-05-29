@@ -197,7 +197,10 @@ var Diaspora = {
         }
 
         if (p.eq(0).data("autoplay") == true) {
+            // 增加延时播放 @2020-5-29
+           setTimeout(function() {
             p[0].play();
+           }, 2000)
         }
 
         p.on({
@@ -289,11 +292,10 @@ $(function() {
                 }
                 Diaspora.F($('#cover')[0], cover.w, cover.h)
             })();
-            setTimeout(function() {
-                $('html, body').removeClass('loading');
-                // 首页音乐播放器 @2019-07
-                Diaspora.player()
-            }, 1000)
+
+            $('html, body').removeClass('loading');  
+            // 首页音乐播放器 @2019-07
+            Diaspora.player()      
             $('#mark').parallax()
             var vibrant = new Vibrant(cover.t[0]);
             var swatches = vibrant.swatches()
@@ -328,7 +330,7 @@ $(function() {
         $('#single').css('min-height', window.innerHeight)
         setTimeout(function() {
             $('html, body').removeClass('loading')
-        }, 1000)
+        }, 400)
         window.addEventListener('popstate', function(e) {
             if (e.state) location.href = e.state.u;
         })
